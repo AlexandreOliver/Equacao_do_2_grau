@@ -1,6 +1,6 @@
 from time import sleep
 print('\033[;;33m='*5,'EQUAÇÃO DO SEGUNDO 2°','='*5,'\033[m')
-for r in range(10):
+while True:
     a = float(input('Variavel A: '))
     if a == 0:
         print("A variavel 'A' deve ser\nobrigatoriamente diferente de [0]")
